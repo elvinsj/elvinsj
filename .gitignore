@@ -1,0 +1,106 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<head>
+<title>stupid puppy qian</title>
+<link rel="stylesheet" type="text/css" href="spq.css" />
+<link rel="stylesheet" type="text/css" href="button0.css" />
+<script src="spq.js"></script>
+</head>
+
+<body>
+
+<h1 id="h0">stupid puppy qian</h1>
+<blockquote id="b0">傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。<del id="d0">傻缺小胖咪。</del>傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。</blockquote>
+
+<div id="whole">
+
+<div id="a">
+
+<div id="b">
+<img src="source/spq0.jpg" id="spq"></img>
+<br /><br />
+<a href="http://weibo.com/xuxu0619">在本窗口打开傻缺小狗倩的围脖</a>
+<br /><br />
+<a href="http://weibo.com/xuxu0619" target="_blank">在新窗口打开傻缺小狗倩的围脖</a>
+<br /><br />
+</div>
+
+<div id="c">
+<table>
+<caption>小狗倩智商编年史</caption>
+ <tr>
+  <th>年份</th>
+  <td>2012</td>
+  <td>2013</td>
+  <td>2014</td>
+  <td>2015</td>
+  <td>2016</td>
+ </tr>
+ <tr>
+  <th>智商</th>
+  <td>3</td>
+  <td>3</td>
+  <td>3</td>
+  <td>3</td>
+  <td>3</td>
+ </tr>
+</table>
+</div>
+
+<div id="d">
+<h4>小狗倩每日狗粮</h4>
+<ul type="square">
+ <li>麻辣烫</li>
+ <li>刘桐盖饭</li>
+ <li>烤冷面加肠</li>
+ <li>蜂蜜牛奶味薯愿</li>
+</ul>
+</div>
+
+<div id="e">
+<h4>小狗倩每日活动</h4>
+<ol type="1">
+ <li>做ppt</li>
+ <li>做cad</li>
+ <li>做sketchup</li>
+ <li>玩爱德华</li>
+</ol>
+</div>
+
+</div>
+
+<div id="f">
+<h2 id="danger">脚本区！危险！慎入！</h2>
+<audio src="source/spq.mp3" controls="controls"></audio>
+</div>
+
+<div id="g">
+<br /><span>&nbsp</span>
+<button onclick="f0()" class="button orange small">点击有惊喜</button>
+<button onclick="f1()" class="button orange small">点击有惊喜</button>
+<button onclick="f2()" class="button orange small">点击有惊喜</button>
+<br /><br /><span>&nbsp</span>
+<button onclick="f3()" class="button orange small">点击有惊喜</button>
+<button onclick="f4()" class="button orange small">点击有惊喜</button>
+<button onclick="f5('stupid','puppy qian')" class="button orange small">点击有惊喜</button>
+<br /><br /><span>&nbsp</span>
+<button onclick="f5('smart','jojo')" class="button orange small">点击有惊喜</button>
+<button onmousedown="f6(this)" onmouseup="f7(this)" class="button orange small">点击有惊喜</button>
+<button onclick="f8()" class="button orange small">点击有惊喜</button>
+<br /><br /><span>&nbsp</span>
+<button onclick="f9()" class="button orange small">点击有惊喜</button>
+<button onclick="f10()" class="button orange small">点击有惊喜</button>
+<button onclick="f11()" class="button orange small">点击有惊喜</button>
+<br /><br /><span>&nbsp</span>
+<button onclick="f12()" class="button orange small">点击有惊喜</button>
+</div>
+
+</div>
+
+</body>
+
+</html>
