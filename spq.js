@@ -11,21 +11,17 @@ document.getElementById("danger").innerHTML="脚本区！不危险！请进！"
 function f2()
 {
 element=document.getElementById("spq")
-if(element.src.match("http://ww4.sinaimg.cn/mw690/9e8a9c71jw1f3dxyfre3vj207f08cjsj.jpg"))
+if(element.src.match("http://img.coloranges.com/1605/3643721951607.jpg"))
   {
-  element.src="http://ww4.sinaimg.cn/mw690/9e8a9c71jw1f3dxye5oy7j207f08caai.jpg"
+  element.src="http://img.coloranges.com/1605/3683721951607.jpg"
   }
-else if(element.src.match("http://ww4.sinaimg.cn/mw690/9e8a9c71jw1f3dxye5oy7j207f08caai.jpg"))
+else if(element.src.match("http://img.coloranges.com/1605/3683721951607.jpg"))
   {
-  element.src="http://ww2.sinaimg.cn/mw690/9e8a9c71jw1f3dxyg2ssyj207f08cdh9.jpg"
-  }
-else if(element.src.match("http://ww2.sinaimg.cn/mw690/9e8a9c71jw1f3dxyg2ssyj207f08cdh9.jpg"))
-  {
-  element.src="http://ww2.sinaimg.cn/mw690/9e8a9c71jw1f3dxyevn5mj207f08cgm5.jpg"
+  element.src="http://img.coloranges.com/1605/3713721951607.jpg"
   }
 else
   {
-  element.src="http://ww4.sinaimg.cn/mw690/9e8a9c71jw1f3dxyfre3vj207f08cjsj.jpg"
+  element.src="http://img.coloranges.com/1605/3643721951607.jpg"
   }
 }
 
