@@ -1,22 +1,26 @@
 body{font-family:微软雅黑;background-image:url(http://ww4.sinaimg.cn/mw690/9e8a9c71jw1f3dxyczrybj20dw06l74i.jpg);}
 h1{color:orange;text-align:center;}
-h2{color:orange;text-align:center;}
+h2{color:white;text-align:center;}
 h4{color:orange;text-align:center;}
 blockquote{color:white;}
 [href]{color:orange;}
-caption{color:orange;font-weight:bold;}
+p{color:white;}
+ul{color:white;}
+ol{color:white;}
 
-.container0{width:920px;height:920px;margin:0 auto;}
+.container{width:1000px;height:1000px;margin:0 auto;position:relative;}
 
-.container1{width:567px;float:left;}
-
-div#content0{width:267px;height:420px;float:left;text-align:center;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border-radius:10px;box-shadow:10px 10px 5px;}
+.content0{width:267px;height:420px;float:left;text-align:center;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border-radius:10px;box-shadow:10px 10px 5px;}
 #spq{border-radius:10px 10px 0 0}
 
-.container2{width:250px;float:right;}
-table{color:white;width:250px;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border:1px solid;border-radius:10px 10px 0 0;}
-div#content1{color:white;width:250px;height:170px;float:right;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);}
-div#content2{color:white;width:250px;height:170px;float:right;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border-radius:0 0 10px 10px;}
+.content1{width:267px;height:420px;margin-left:350px;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border-radius:10px;box-shadow:10px 10px 5px;}
+#c0{color:orange;font-weight:bold;}
+#t0{color:white;width:267px;}
 
-div#header0{width:300px;height:60px;float:right;}
-div#js0{width:300px;height:360px;float:right;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border-radius:10px;box-shadow:10px 10px 5px;}
+.content2{width:300px;height:420px;float:right;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border-radius:10px;box-shadow:10px 10px 5px;}
+
+.block{width:1000px;height:50px;}
+
+.footer{width:600px;height:50px;margin-left:260px;position:absolute;bottom:10px;background-image:url(http://ww1.sinaimg.cn/mw690/9e8a9c71jw1f3dxydje76j20dw0dwt9k.jpg);border-radius:10px;box-shadow:10px 10px 5px;}
+#footer{color:white;margin-left:20px;margin-top:10px;}
+#button1{margin-left:20px;margin-top:10px;text-decoration:none;font:12px/100% 微软雅黑;}
