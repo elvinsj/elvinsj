@@ -42,12 +42,6 @@ else
   }
 }
 
-function f4()
-{
-var d1="傻缺小胖儿小胖儿。"
-document.getElementById("d0").innerHTML=d1
-}
-
 function f5(a,b)
 {
 alert("yoooooo! "+a+" "+b+"!")
@@ -55,12 +49,12 @@ alert("yoooooo! "+a+" "+b+"!")
 
 function f6()
 {
-document.getElementById("b").style.visibility="hidden"
+document.getElementById("f6f7").style.visibility="hidden"
 }
 
 function f7()
 {
-document.getElementById("b").style.visibility="visible"
+document.getElementById("f6f7").style.visibility="visible"
 }
 
 function f8()
