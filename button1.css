@@ -1,4 +1,8 @@
-.weibo {
+a.weibo {
+	outline:none;
+	blr:expression(this.onFocus=this.blur());
+	text-decoration:none;
+	font:12px/100% 微软雅黑;
 	display:inline-block;
 	padding:4px 10px;
 	border-radius:3px;
@@ -9,6 +13,7 @@
 	background-image:-webkit-linear-gradient(top,#e96249,#e03c40);
 	background-image:-o-linear-gradient(top,#e96249,#e03c40);
 	background-image:linear-gradient(top,#e96249,#e03c40);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e96249',endColorstr='#e03c40',GradientType=0);
 	background-repeat:repeat-x;
 	text-shadow:0 -1px 0 rgba(0,0,0,.5);
 	border:1px solid #cf2b28;
@@ -16,16 +21,17 @@
 	box-shadow:0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2);
 }
 
-.weibo:hover {
+a.weibo:hover {
 	background-image:-moz-linear-gradient(top,#e03c40,#e96249);
 	background-image:-ms-linear-gradient(top,#e03c40,#e96249);
 	background-image:-webkit-gradient(linear,0 0,0 100%,from(#e03c40),to(#e96249));
 	background-image:-webkit-linear-gradient(top,#e03c40,#e96249);
 	background-image:-o-linear-gradient(top,#e03c40,#e96249);
 	background-image:linear-gradient(top,#e03c40,#e96249);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e03c40',endColorstr='#e96249',GradientType=0);
 }
 
-.weibo span {
+a.weibo span {
 	display:inline-block;
 	vertical-align:-5px;
 	margin-right:7px;
