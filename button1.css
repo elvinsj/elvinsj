@@ -1,0 +1,35 @@
+.weibo {
+	display:inline-block;
+	padding:4px 10px;
+	border-radius:3px;
+	background-color:#e55345;
+	background-image:-moz-linear-gradient(top,#e96249,#e03c40);
+	background-image:-ms-linear-gradient(top,#e96249,#e03c40);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#e96249),to(#e03c40));
+	background-image:-webkit-linear-gradient(top,#e96249,#e03c40);
+	background-image:-o-linear-gradient(top,#e96249,#e03c40);
+	background-image:linear-gradient(top,#e96249,#e03c40);
+	background-repeat:repeat-x;
+	text-shadow:0 -1px 0 rgba(0,0,0,.5);
+	border:1px solid #cf2b28;
+	color:#fff;
+	box-shadow:0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2);
+}
+
+.weibo:hover {
+	background-image:-moz-linear-gradient(top,#e03c40,#e96249);
+	background-image:-ms-linear-gradient(top,#e03c40,#e96249);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#e03c40),to(#e96249));
+	background-image:-webkit-linear-gradient(top,#e03c40,#e96249);
+	background-image:-o-linear-gradient(top,#e03c40,#e96249);
+	background-image:linear-gradient(top,#e03c40,#e96249);
+}
+
+.weibo span {
+	display:inline-block;
+	vertical-align:-5px;
+	margin-right:7px;
+	height:20px;
+	width:24px;
+	background:url(http://img.coloranges.com/1605/4853721951607.png) no-repeat;
+}
