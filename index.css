@@ -7,6 +7,8 @@ span{color:white;}
 p{color:white;}
 ul{color:white;}
 ol{color:white;}
+form{color:white;}
+textarea{resize:none;}
 
 .container{width:1000px;height:1000px;margin:0 auto;position:relative;}
 
