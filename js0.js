@@ -11,17 +11,17 @@ document.getElementById("danger").innerHTML="脚本区！不危险！请进！"
 function f2()
 {
 element=document.getElementById("spq")
-if(element.src.match("http://img.coloranges.com/1605/3643721951607.jpg"))
+if(element.src.match("http://ww2.sinaimg.cn/mw690/9e8a9c71jw1f432zpspnkj208c0b475m.jpg"))
   {
-  element.src="http://img.coloranges.com/1605/3683721951607.jpg"
+  element.src="http://ww3.sinaimg.cn/mw690/9e8a9c71jw1f432zqfn81j208c0b4myd.jpg"
   }
-else if(element.src.match("http://img.coloranges.com/1605/3683721951607.jpg"))
+else if(element.src.match("http://ww3.sinaimg.cn/mw690/9e8a9c71jw1f432zqfn81j208c0b4myd.jpg"))
   {
-  element.src="http://img.coloranges.com/1605/3713721951607.jpg"
+  element.src="http://ww3.sinaimg.cn/mw690/9e8a9c71jw1f432zr4ukqj208c0b4dgj.jpg"
   }
 else
   {
-  element.src="http://img.coloranges.com/1605/3643721951607.jpg"
+  element.src="http://ww2.sinaimg.cn/mw690/9e8a9c71jw1f432zpspnkj208c0b475m.jpg"
   }
 }
 
