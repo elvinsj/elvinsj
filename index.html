@@ -10,7 +10,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <link rel="stylesheet" type="text/css" href="button0.css" />
 <link rel="stylesheet" type="text/css" href="button1.css" />
 <script src="js0.js"></script>
-<?php include 'php0.php';?>
+
 </head>
 
 <body>
@@ -86,21 +86,18 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <div class="content3">
 <h2>フォームエリア</h2>
 <p>* 必要な情報</p>
-<form method="post">
+<form action="sql0.php" method="post">
    * あなたの名前：<br />
-   <input type="text" name="name"><br />
-   <span class="error"><?php echo $nameErr;?></span><br />
+   <input type="text" name="name" /><br /><br />
    * あなたのメール：<br />
-   <input type="text" name="email"><br />
-   <span class="error"><?php echo $emailErr;?></span><br />
+   <input type="text" name="email" /><br /><br />
    あなたのコメント：<br />
    <textarea name="comment" rows="5" cols="30"></textarea><br /><br />
    * あなたの性別：
-   <input type="radio" name="gender" value="♂">♂
-   <input type="radio" name="gender" value="♀">♀
-   <input type="radio" name="gender" value="秀吉">秀吉<br />
-   <span class="error"><?php echo $genderErr;?></span><br /><br />
-   <input type="submit" value="提出する" class="button orange bigrounded">
+   <input type="radio" name="gender" value="♂" />♂
+   <input type="radio" name="gender" value="♀" />♀
+   <input type="radio" name="gender" value="秀吉" />秀吉<br /><br /><br />
+   <input type="submit" value="提出する" class="button orange bigrounded" />
 </form>
 </div>
 
@@ -108,7 +105,6 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <br />
 <h2>To be continued...</h2>
 </div>
-
 
 <div class="footer">
 <a href="http://weibo.com/elvinsj" target="_blank" class="weibo" id="weibo0"><span></span>作者微博</a>
