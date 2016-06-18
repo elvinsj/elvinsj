@@ -7,10 +7,9 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <head>
 <title>stupid puppy qian</title>
 <link rel="stylesheet" type="text/css" href="index.css" />
-<link rel="stylesheet" type="text/css" href="button0.css" />
-<link rel="stylesheet" type="text/css" href="button1.css" />
-<script src="js0.js"></script>
-
+<link rel="stylesheet" type="text/css" href="button.css" />
+<script src="function.js"></script>
+<script src="jquery.js"></script>
 </head>
 
 <body>
@@ -18,33 +17,56 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <h1 id="h0">stupid puppy qian</h1>
 <blockquote id="b0">傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。<del id="d0">傻缺小胖咪。</del>傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。傻缺小狗倩。</blockquote><br />
 
-<div class="container">
+<div id="container">
 
-<div class="content0" id="f6f7">
+<div id="content0">
 <img src="http://ww2.sinaimg.cn/mw690/9e8a9c71jw1f432zpspnkj208c0b475m.jpg" id="spq"></img>
 </div>
 
-<div class="content2">
+<div id="content2">
 <h2 id="danger">脚本区！危险！慎入！</h2>
 <br /><br /><span>&nbsp</span>
-<button onclick="f0()" class="button orange small">点击有惊喜</button>
+<button onclick="f0()" class="button blue small">点击有惊喜</button>
 <button onclick="f1()" class="button orange small">点击有惊喜</button>
-<button onclick="f2()" class="button orange small">点击有惊喜</button>
+<button onclick="f2()" class="button blue small">点击有惊喜</button>
 <br /><br /><span>&nbsp</span>
 <button onclick="f3()" class="button orange small">点击有惊喜</button>
-<button onclick="f5('stupid','puppy qian')" class="button orange small">点击有惊喜</button>
+<button onclick="f5('stupid','puppy qian')" class="button blue small">点击有惊喜</button>
 <button onclick="f5('smart','jojo')" class="button orange small">点击有惊喜</button>
 <br /><br /><span>&nbsp</span>
-<button onmousedown="f6(this)" onmouseup="f7(this)" class="button orange small">点击有惊喜</button>
+<button onmousedown="f6(this)" onmouseup="f7(this)" class="button blue small">点击有惊喜</button>
 <button onclick="f8()" class="button orange small">点击有惊喜</button>
-<button onclick="f9()" class="button orange small">点击有惊喜</button>
+<button onclick="f9()" class="button blue small">点击有惊喜</button>
 <br /><br /><span>&nbsp</span>
 <button onclick="f10()" class="button orange small">点击有惊喜</button>
-<button onclick="f11()" class="button orange small">点击有惊喜</button>
+<button onclick="f11()" class="button blue small">点击有惊喜</button>
 <button onclick="f12()" class="button orange small">点击有惊喜</button>
+<br /><br /><span>&nbsp</span>
+<script>
+$(document).ready(function(){
+
+$("#f13").click(function(){
+$("#content4").hide(500,function(){
+alert("嘿！你把它整哪去啦！")
+})
+})
+
+$("#f14").click(function(){
+$("#content4").fadeToggle(500)
+})
+
+$("#f15").click(function(){
+$("#content4").slideToggle(500)
+})
+
+})
+</script>
+<button id="f13" class="button blue small">点击有惊喜</button>
+<button id="f14" class="button orange small">点击有惊喜</button>
+<button id="f15" class="button blue small">点击有惊喜</button>
 </div>
 
-<div class="content1">
+<div id="content1">
 <table id="t0">
 <caption id="c0">小狗倩智商编年史</caption>
  <tr>
@@ -80,10 +102,10 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 </ol>
 </div>
 
-<div class="block">
+<div id="block">
 </div>
 
-<div class="content3">
+<div id="content3">
 <h2>フォームエリア</h2>
 <p>* 必要な情報</p>
 <form>
@@ -101,15 +123,13 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 </form>
 </div>
 
-<div class="content4">
+<div id="content4">
 <br />
 <h2>To be continued...</h2>
 </div>
 
-<div class="footer">
-<a href="http://weibo.com/elvinsj" target="_blank" class="weibo" id="weibo0"><span></span>作者微博</a>
-<a href="http://weibo.com/xuxu0619" target="_blank" class="weibo" id="weibo1"><span></span>小狗倩微博</a>
-<span id="footer">Copyright &copy 2016 EJ Studio. All Rights Reserved</span>
+<div id="footer">
+<p>Copyright &copy 2016 EJ Studio. All Rights Reserved</p>
 </div>
 
 </div>
