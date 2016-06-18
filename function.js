@@ -45,12 +45,12 @@ alert("yoooooo! "+a+" "+b+"!")
 
 function f6()
 {
-document.getElementById("f6f7").style.visibility="hidden"
+document.getElementById("spq").style.visibility="hidden"
 }
 
 function f7()
 {
-document.getElementById("f6f7").style.visibility="visible"
+document.getElementById("spq").style.visibility="visible"
 }
 
 function f8()
